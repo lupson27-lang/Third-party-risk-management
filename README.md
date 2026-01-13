@@ -1,6 +1,7 @@
 # Third-Party Risk Management (TPRM)
 ![TPRM Lifecycle](A_flowchart_diagram_titled_"Third-Party_Risk_Manag.png)
 
+
 ## Executive Summary
 
 This project demonstrates a practical, risk-based approach to third-party risk management (TPRM), focusing on how organizations identify, assess, prioritize, and govern cybersecurity risk introduced by vendors and external service providers.
