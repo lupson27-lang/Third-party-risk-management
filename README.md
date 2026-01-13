@@ -1,5 +1,10 @@
 # Third-Party Risk Management (TPRM)
-![TPRM Lifecycle](A_flowchart_diagram_titled_"Third-Party_Risk_Manag.png)
+# Third-Party Risk Management
+
+![TPRM Lifecycle](tprm_lifecycle.png)
+
+This repository demonstrates an end-to-end Third-Party Risk Management framework, from vendor inventory to risk assessment, scoring, treatment, continuous monitoring, and executive reporting.
+
 
 ## Executive Summary
 
