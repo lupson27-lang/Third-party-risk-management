@@ -1,8 +1,6 @@
 # Third-Party Risk Management (TPRM)
 
-![TPRM Lifecycle](./tprm_lifecycle.png)
-
----
+![TPRM Lifecycle](tprm_lifecycle.png)
 
 ## Executive Summary
 
