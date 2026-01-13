@@ -1,30 +1,25 @@
 # Third-Party Risk Management (TPRM)
-# Third-Party Risk Management
 
 ![TPRM Lifecycle](tprm_lifecycle.png)
 
-This repository demonstrates an end-to-end Third-Party Risk Management framework, from vendor inventory to risk assessment, scoring, treatment, continuous monitoring, and executive reporting.
-
-
 ## Executive Summary
 
-This project demonstrates a practical, risk-based approach to third-party risk management (TPRM), focusing on how organizations identify, assess, prioritize, and govern cybersecurity risk introduced by vendors and external service providers.
+This repository presents a practical, end-to-end **Third-Party Risk Management (TPRM)** model focused on how organizations assess, prioritize, and govern vendor risk in real-world environments.
 
-Rather than treating TPRM as a compliance checklist, this model emphasizes decision-making under real-world constraints — including incomplete information, business dependency, and varying vendor maturity.
+Rather than treating third-party risk as a compliance checkbox, this project emphasizes **risk-based decision-making**, evidence-driven due diligence, and continuous monitoring aligned with business and regulatory expectations.
 
-The project is designed to reflect how GRC and security teams support procurement, IT, and leadership by providing structured risk insight, clear documentation, and defensible risk acceptance decisions.
-
-> These materials represent how I think about third-party risk decisions and governance processes — not a production TPRM system I personally operated.
+The content is designed to reflect how mature security and risk teams manage vendor risk across the full lifecycle — from onboarding to ongoing oversight and executive reporting.
 
 ---
 
 ## Objectives
 
-- Identify where and how third-party relationships introduce cybersecurity risk
-- Classify vendors based on business criticality and data exposure
-- Apply structured risk assessment and scoring methods
-- Document risk treatment, mitigation, and acceptance decisions
-- Translate vendor risk into executive-level visibility
+- Establish a structured approach to identifying and classifying third-party vendors  
+- Assess vendor risk based on likelihood and business impact  
+- Perform due diligence beyond certifications and self-attestations  
+- Support defensible risk treatment and acceptance decisions  
+- Enable continuous monitoring and audit-ready documentation  
+- Translate vendor risk into executive-level insight  
 
 ---
 
@@ -32,53 +27,64 @@ The project is designed to reflect how GRC and security teams support procuremen
 
 This project covers:
 
-- Vendor inventory and criticality classification
-- Due diligence and security questionnaire design
-- Risk scoring and prioritization logic
-- Risk treatment and acceptance workflows
-- Ongoing monitoring and periodic review
-- Executive and audit-oriented reporting
+- Vendor inventory and risk tiering  
+- Risk assessment methodology and scoring  
+- Due diligence and security controls review  
+- Risk treatment, mitigation, and acceptance  
+- Continuous monitoring and reassessment  
+- Executive and audit-oriented reporting  
 
-Out of scope:
+This project **does not represent production systems or real organizational data**.  
+It focuses on governance processes, decision logic, and risk management thinking.
 
-- Legal contract language
-- Procurement negotiation processes
-- Vendor-specific tooling or platforms
+---
+
+## Repository Structure
+
+- **vendor_inventory.md**  
+  Defines how vendors are identified, classified, and tiered based on criticality and access.
+
+- **risk_assessment_methodology.md**  
+  Describes how likelihood and impact are evaluated to identify vendor risk scenarios.
+
+- **risk_scoring_and_prioritization.md**  
+  Explains how risks are scored and prioritized to guide mitigation and acceptance decisions.
+
+- **due_diligence_and_controls_review.md**  
+  Details how vendor security controls and evidence are evaluated beyond certifications.
+
+- **risk_treatment_and_acceptance.md**  
+  Documents mitigation strategies, compensating controls, and formal risk acceptance.
+
+- **continuous_monitoring_and_review.md**  
+  Defines how vendor risk is monitored over time and reassessed based on change triggers.
+
+- **executive_reporting.md**  
+  Translates vendor risk posture into metrics and summaries for leadership and audit review.
 
 ---
 
 ## Framework Alignment
 
-The approach aligns conceptually with:
+This project aligns conceptually with:
 
-- ISO/IEC 27001 — Risk assessment and supplier relationships
-- NIST Cybersecurity Framework — Identify, Govern, Protect
-- NIST SP 800-30 / 800-37 — Risk assessment and risk management
-- Common enterprise TPRM practices
-
-Frameworks are used to guide structure and accountability — not as a checklist.
+- **ISO/IEC 27001** — Risk-based control selection and monitoring  
+- **NIST Cybersecurity Framework (CSF)** — Govern, Identify, and Monitor functions  
+- **NIST SP 800-30 / 800-37** — Risk assessment and risk management lifecycle  
+- **Regulatory expectations** (e.g., NIS2, DORA) regarding third-party oversight  
 
 ---
 
-## Repository Contents
+## Key Takeaway
 
-- **vendor_inventory_and_classification.md**  
-  Identifies vendors and classifies them by business criticality and data exposure.
+Third-party risk cannot be eliminated — it must be **understood, governed, and consciously accepted** where appropriate.
 
-- **risk_assessment_methodology.md**  
-  Defines how vendor risks are identified, scoped, and assessed.
+Effective TPRM is not about perfect vendors, but about **making informed, documented, and defensible risk decisions** that align security with business reality.
 
-- **due_diligence_questionnaire.md**  
-  Example security due diligence questions mapped to risk areas.
+---
 
-- **risk_scoring_and_prioritization.md**  
-  Describes how likelihood and impact are combined to prioritize vendor risk.
+## Scope & Intent Disclaimer
 
-- **risk_treatment_and_acceptance.md**  
-  Documents mitigation strategies, compensating controls, and formal risk acceptance.
+These materials represent **how I think about cybersecurity governance and risk decisions**,  
+not systems I personally operated or managed in a production environment.
 
-- **ongoing_monitoring_and_review.md**  
-  Explains how vendor risk is reviewed over time and when reassessment is required.
-
-- **executive_reporting.md**  
-  Translates vendor risk into metrics and summaries suitable for leadership and audit review.
